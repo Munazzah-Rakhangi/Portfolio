@@ -5,7 +5,7 @@ import { ArrowUpCircle, Download, Github, Linkedin, Mail } from "lucide-react";
 import Link from "next/link";
 
 export default function Hero() {
-  const BASE = process.env.NODE_ENV === "production" ? "/Munazzah-Rakhangi" : "";
+  const BASE = process.env.NODE_ENV === "production" ? "/Portfolio" : "";
   return (
     <section
       id="home"

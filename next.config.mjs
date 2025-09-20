@@ -5,8 +5,8 @@ const nextConfig = {
   output: "export",
   images: { unoptimized: true },
   // These make assets work under /portfolio on GitHub Pages
-  basePath: isProd ? "/Munazzah-Rakhangi" : "",
-  assetPrefix: isProd ? "/Munazzah-Rakhangi/" : "",
+  basePath: isProd ? "/Portfolio" : "",
+  assetPrefix: isProd ? "/Portfolio/" : "",
 };
 
 export default nextConfig;
