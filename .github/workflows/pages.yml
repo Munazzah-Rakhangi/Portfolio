@@ -37,12 +37,6 @@ jobs:
       - name: Build static export
         run: pnpm build
 
-      # Enable Pages for this repo if it's not already enabled
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
