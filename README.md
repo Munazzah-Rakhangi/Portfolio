@@ -3,8 +3,8 @@
 
 # 🌐 Munazzah Rakhangi — Portfolio Website
 
-This repository contains the source code for my **personal portfolio website**, built with **Next.js** and **Tailwind CSS**.  
-The portfolio showcases my background, technical expertise, and projects in **Software Development** and **Machine Learning**.
+A modern personal portfolio website built with **Next.js**, **React**, and **Tailwind CSS**.  
+This site showcases my projects, skills, and professional experience as a **Software Developer & Machine Learning Engineer**.
 
 🔗 **Live Site**: [https://munazzah-rakhangi.github.io/Portfolio/](https://munazzah-rakhangi.github.io/Portfolio/)
 
@@ -47,8 +47,6 @@ Run the development server:
 pnpm dev
 ```
 
-The site will be available at [http://localhost:3000](http://localhost:3000).
-
 ---
 
 ## 📦 Build & Deployment
@@ -85,8 +83,8 @@ Portfolio/
 **Munazzah Rakhangi**
 Software Developer & ML Engineer
 
-* 🌐 [LinkedIn](https://www.linkedin.com/in/munazzah-rakhangi/)
-* 📧 [Email](mailto:your.email@example.com)
+* 🌐 [LinkedIn](https://www.linkedin.com/in/munazzah-rakhangi-9748471b4/)
+* 📧 [Email](mailto:munazzahrizwan.rakhangi@slu.edu)
 
 
 
