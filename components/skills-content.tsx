@@ -4,40 +4,39 @@ import { Badge } from "@/components/ui/badge"
 export default function SkillsContent() {
   const skillCategories = [
     {
-      category: "Languages",
-      skills: ["Python", "Java", "JavaScript", "TypeScript", "R", "SQL"],
+      category: "Languages & Runtimes",
+      skills: ["Python", "SQL", "JavaScript", "TypeScript"],
     },
     {
-      category: "Frontend Technologies",
-      skills: ["React.js", "Tailwind CSS", "HTML/CSS", "React Router", "react-i18next"],
+      category: "Frontend",
+      skills: ["React.js", "Tailwind CSS", "HTML/CSS"],
     },
     {
       category: "Backend & APIs",
-      skills: ["FastAPI", "Node.js", "Express.js", "Nest.js", "Django", "Flask"],
+      skills: ["FastAPI", "Node.js", "Flask", "Express.js", "REST APIs"],
+    },
+    {
+      category: "Agentic AI & LLMs",
+      skills: [
+        "OpenAI APIs",
+        "LLM Orchestration",
+        "RAG",
+        "LangChain",
+        "Prompt Engineering",
+        "Schema-Constrained Generation",
+      ],
+    },
+    {
+      category: "ML & Data",
+      skills: ["PyTorch", "TensorFlow", "Scikit-learn", "Pandas", "NumPy"],
     },
     {
       category: "Databases",
-      skills: ["PostgreSQL", "Oracle Database", "SQL", "Database Design"],
+      skills: ["PostgreSQL", "MySQL", "MongoDB", "Supabase"],
     },
     {
-      category: "Machine Learning & AI",
-      skills: ["TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy", "Matplotlib"],
-    },
-    {
-      category: "ML Techniques",
-      skills: ["Supervised Learning", "Unsupervised Learning", "Neural Networks", "NLP", "Computer Vision"],
-    },
-    {
-      category: "Data Analysis",
-      skills: ["Power BI", "Excel", "Google Sheets", "Data Visualization", "Statistical Analysis"],
-    },
-    {
-      category: "Tools & Platforms",
-      skills: ["Git", "GitHub", "VS Code", "Jupyter Notebook", "Google Colab", "Hugging Face"],
-    },
-    {
-      category: "Methodologies",
-      skills: ["Agile", "CI/CD", "Code Reviews", "Project Management", "Team Leadership"],
+      category: "Cloud & DevOps",
+      skills: ["AWS EC2", "AWS S3", "Docker", "Git", "CI/CD"],
     },
   ]
 
