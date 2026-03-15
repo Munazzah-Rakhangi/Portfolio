@@ -1,27 +1,31 @@
 import { Card, CardContent } from "@/components/ui/card"
-import { Code2, Database, Brain, Users } from "lucide-react"
+import { Brain, Bot, Code2, Database, Users } from "lucide-react"
 
 export default function About() {
   const features = [
     {
       icon: <Brain className="h-10 w-10 text-primary" />,
       title: "Machine Learning & AI",
-      description: "Expertise in ML pipelines, predictive analytics, and AI model development",
+      description:
+        "ML pipelines, predictive modeling, computer vision, and NLP. Experience with PyTorch, TensorFlow, and scikit-learn delivering production systems with measurable accuracy gains.",
     },
     {
-      icon: <Database className="h-10 w-10 text-primary" />,
-      title: "Data Engineering",
-      description: "Proficient in data pipelines, ETL processes, and database optimization",
+      icon: <Bot className="h-10 w-10 text-primary" />,
+      title: "Agentic AI & LLMs",
+      description:
+        "LLM orchestration, RAG, multi-agent workflows, and schema-constrained generation. Building agentic legal and intake systems with tool-calling and autonomous workflows.",
     },
     {
       icon: <Code2 className="h-10 w-10 text-primary" />,
-      title: "Full Stack Development",
-      description: "React, TypeScript, Python, SQL with cloud deployment expertise",
+      title: "Full Stack & Data",
+      description:
+        "End-to-end platforms with React, FastAPI, Node.js, PostgreSQL, and REST APIs. ETL pipelines, cloud deployment (AWS), and CI/CD for scalable, high-uptime applications.",
     },
     {
       icon: <Users className="h-10 w-10 text-primary" />,
-      title: "Collaborative Leadership",
-      description: "Experience in fast-moving teams with clear communication and iterative development",
+      title: "Leadership & Production",
+      description:
+        "Proven track record leading cross-functional engineering teams and shipping production AI systems in legal tech, healthcare, and e‑commerce with a focus on reliability and impact.",
     },
   ]
 
@@ -33,14 +37,17 @@ export default function About() {
             <div className="space-y-4 text-center">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Me</h2>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Graduate student in Artificial Intelligence with a track record of turning complex data and half-formed
-                ideas into reliable, user-friendly software.
+                AI Engineer with 2+ years building machine learning systems, LLM-powered applications, and scalable
+                data pipelines. Experienced in agentic AI workflows, NLP pipelines, and full-stack platforms using
+                Python, PyTorch, FastAPI, and React.
               </p>
             </div>
 
             <div className="mx-auto max-w-3xl text-center">
               <p className="text-muted-foreground md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed">
-                Skilled in building scalable, maintainable products across ML, data engineering, and full-stack development—pairing clear UX with a prototype-to-production mindset. I thrive in fast-moving, collaborative teams, translating ambiguous problems into scoped deliverables and iterating based on evidence. Comfortable with Python/SQL, JavaScript/TypeScript (React), and AWS; especially motivated by healthcare, analytics, and other data-rich domains.
+                Proven track record of leading engineering teams and delivering production AI systems across computer
+                vision, natural language processing, and predictive modeling—in legal tech, healthcare, and
+                e‑commerce. Passionate about building intelligent, scalable systems that solve real-world problems.
               </p>
             </div>
 

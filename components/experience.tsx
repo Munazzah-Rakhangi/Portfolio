@@ -5,9 +5,33 @@ import Skills from "./skills-content"
 export default function Experience() {
   const experiences = [
     {
+      title: "AI/ML Engineer",
+      company: "ReferU.AI",
+      period: "February 2026 - Present",
+      location: "Saint Louis, MO, USA",
+      achievements: [
+        "Developing agentic AI legal intake system using LLM workflows and tool-calling to automate client screening, data extraction, and structured case intake",
+        "Architecting multi-agent pipelines for document analysis, case classification, and attorney matching using Python, FastAPI, and LLM orchestration",
+        "Building production AI services integrating LLM APIs and structured outputs to automate legal workflows and reduce manual case processing",
+
+      ],
+    },
+    {
+      title: "Software Engineer Intern",
+      company: "Prox Shopping",
+      period: "September 2025 - Present",
+      location: "Los Angeles, CA, USA (Remote)",
+      achievements: [
+        "Architected NLP pipeline using OpenAI APIs to convert 50+ weekly retailer flyers into structured JSON datasets with 95%extraction accuracy.",
+        "Built scalable Python web scraping and distributed task system automating flyer ingestion and reducing manual data collection by 80%.",
+        "Designed ETL pipelines and PostgreSQL/Supabase backend enabling centralized data storage and automated email deliverywith 99.5% uptime",
+
+      ],
+    },
+    {
       title: "Team Lead and Full stack developer",
       company: "Open Source with SLU",
-      period: "Aug 2025 - Present",
+      period: "Aug 2025 - December 2025",
       location: "Saint Louis, MO, USA",
       achievements: [
         "Architect end-to-end system design across frontend, backend, API, and ML modules",

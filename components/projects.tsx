@@ -7,6 +7,14 @@ import OpenSource from "./open-source"
 export default function Projects() {
   const projects = [
     {
+      title: "TaskScribe – AI meeting assistant",
+      description:
+        "Converts meeting transcripts and audio into structured summaries and action items with 90%+ accuracy using schema-constrained LLM outputs. Features real-time transcription, JWT and Google OAuth, PostgreSQL storage, and automated deadline reminder agents.",
+      tags: ["LLM", "Real-time Transcription", "PostgreSQL", "JWT & OAuth", "Python"],
+      codeLink: "https://github.com/Munazzah-Rakhangi/TaskScribe",
+      liveLink: null,
+    },
+    {
       title: "StyleSavy – AI Fashion Consultant",
       description:
         "Built an AI stylist analyzing 300+ outfits, boosting user engagement by 40%. Integrated YOLOS-Fashionpedia and FLAN-T5 for real-time clothing detection and recommendations via Gradio.",
@@ -38,14 +46,7 @@ export default function Projects() {
       codeLink: "https://github.com/Munazzah-Rakhangi/Machine-Learning-pipeline-for-Warfarin-Dosing-Prediction",
       liveLink: null,
     },
-    {
-      title: "Weekly Deals Emailer",
-      description:
-        "TypeScript/Node automation that turns retailer deal data into branded weekly emails. Ingests JSON datasets, normalizes and stores them in Supabase, applies user preferences, and renders accessible HTML templates.",
-      tags: ["TypeScript/Node.js", "ETL & Data Pipelines", "Supabase/Postgres", "Email Templating", "CLI Tooling"],
-      codeLink: "https://github.com/Munazzah-Rakhangi/weekly-deals-emailer",
-      liveLink: null,
-    },
+
     {
       title: "Stock Price Dashboard",
       description:

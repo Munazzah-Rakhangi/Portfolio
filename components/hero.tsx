@@ -19,19 +19,19 @@ export default function Hero() {
             </h1>
             <p className="mx-auto max-w-[700px] text-xl text-muted-foreground md:text-2xl">
               <span className="js-only">
-                <span>Software developer & ML Engineer</span>
+                <span>AI Engineer</span>
               </span>
               <noscript>
                 <span>
-                  Software developer | ML Engineer | Full-Stack Developer | Healthcare Technology
+                  AI Engineer | Full-Stack Developer | LLM &amp; Agentic AI
                 </span>
               </noscript>
             </p>
           </div>
           <div className="max-w-[700px] text-muted-foreground">
             <p className="text-lg">
-              Building intelligent healthcare solutions with AI/ML expertise and full-stack
-              development skills
+              Building LLM-powered and agentic AI systems, full-stack platforms, and production ML
+              pipelines for legal tech, healthcare, and e‑commerce.
             </p>
           </div>
 
