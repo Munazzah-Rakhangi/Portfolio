@@ -28,7 +28,7 @@ export default function Education() {
                 </div>
                 <div className="p-6">
                   <p className="text-muted-foreground">
-                    Pursuing an advanced degree in Artificial Intelligence with a focus on machine learning, deep
+                    Graduated with a Master's of Science in Artificial Intelligence with a focus on machine learning, deep
                     learning, natural language processing, and AI applications in healthcare. Gaining expertise in
                     cutting-edge AI technologies and research methodologies that drive innovation in intelligent systems
                     and predictive analytics.

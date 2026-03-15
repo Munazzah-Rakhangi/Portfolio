@@ -4,24 +4,39 @@ import { Badge } from "@/components/ui/badge"
 export default function Skills() {
   const skillCategories = [
     {
+      category: "Languages & Runtimes",
+      skills: ["Python", "SQL", "JavaScript", "TypeScript"],
+    },
+    {
       category: "Frontend",
-      skills: ["JavaScript", "TypeScript", "React.js", "HTML/CSS", "Tailwind CSS"],
+      skills: ["React.js", "Tailwind CSS", "HTML/CSS"],
     },
     {
-      category: "Backend",
-      skills: ["Node.js", "PHP", "Laravel", "Express.js", "RESTful APIs"],
+      category: "Backend & APIs",
+      skills: ["FastAPI", "Node.js", "Flask", "Express.js", "REST APIs"],
     },
     {
-      category: "Database",
-      skills: ["MySQL", "PostgreSQL", "DynamoDB", "MongoDB", "Redis"],
+      category: "Agentic AI & LLMs",
+      skills: [
+        "OpenAI APIs",
+        "LLM Orchestration",
+        "RAG",
+        "LangChain",
+        "Prompt Engineering",
+        "Schema-Constrained Generation",
+      ],
+    },
+    {
+      category: "ML & Data",
+      skills: ["PyTorch", "TensorFlow", "Scikit-learn", "Pandas", "NumPy"],
+    },
+    {
+      category: "Databases",
+      skills: ["PostgreSQL", "MySQL", "MongoDB", "Supabase"],
     },
     {
       category: "Cloud & DevOps",
-      skills: ["AWS", "GitHub Actions", "Travis-CI", "Docker", "CI/CD"],
-    },
-    {
-      category: "Tools & Methodologies",
-      skills: ["Git", "Agile", "Scrum", "JIRA", "Figma"],
+      skills: ["AWS EC2", "AWS S3", "Docker", "Git", "CI/CD"],
     },
   ]
 

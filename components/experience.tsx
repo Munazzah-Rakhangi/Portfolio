@@ -8,7 +8,7 @@ export default function Experience() {
       title: "AI/ML Engineer",
       company: "ReferU.AI",
       period: "February 2026 - Present",
-      location: "Saint Louis, MO, USA",
+      location: "Remote USA",
       achievements: [
         "Developing agentic AI legal intake system using LLM workflows and tool-calling to automate client screening, data extraction, and structured case intake",
         "Architecting multi-agent pipelines for document analysis, case classification, and attorney matching using Python, FastAPI, and LLM orchestration",
